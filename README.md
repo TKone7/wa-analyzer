@@ -19,7 +19,7 @@ python3 -m pip install -r requirements.txt
 On Windows you can open PowerShell and execute the following commands:
 
 ```
-git clone https://github.com/superquest/wa-analyzer.git
+git clone https://github.com/TKone7/wa-analyzer.git
 cd .\wa-analyzer\
 py -m venv venv
 .\venv\Scripts\activate
