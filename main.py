@@ -124,7 +124,7 @@ def analyze(filename, daily, rows=20):
         print(data.groupby('sender').agg({'content':'count', 'wordcount':'sum', 'emoji_count':'sum'}))
         print('')
         print('--------------------------------------')
-        print('Media per person')
+        print('Media per person ')
         print('--------------------------------------')
         print(data[data['media']==True].groupby('sender').agg({'media':'count'}))
 
